@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/setting.css">
     <link rel="stylesheet" href="./CSS/responsive.css">
+    <link rel="stylesheet" href="./CSS/setting.css">
     <title>LeoSpa</title>
 </head>
 <body>
@@ -21,9 +21,7 @@
                             <img src="./img/butterfly.png" alt="logo" class="header__logo-img">
                             <span class="header__logo-name">Leospa</span>
                         </a>
-                        <label for="menu-check"><i class="fas fa-bars header__collapse"></i></label>
                         <nav class="menu">
-                            <label for="menu-check"><i class="fas fa-times header__menu-close"></i></label>
                             <ul class="menu__list">
                                 <li class="menu__item">
                                     <a href="" class="menu__link">Home</a>
@@ -42,8 +40,29 @@
                                 </li>
                             </ul>
                         </nav>
+                        <label for="menu-check"><i class="fas fa-bars header__collapse"></i></label>
                         <input type="checkbox" id="menu-check" class="menu-check-input" hidden>
                         <label for="menu-check" class="header__overlay"></label>
+                        <nav class="menu-mobile">
+                            <label for="menu-check"><i class="fas fa-times header__menu-close"></i></label>
+                            <ul class="menu-mobile__list">
+                                <li class="menu-mobile__item">
+                                    <a href="" class="menu-mobile__link">Home</a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a href="" class="menu-mobile__link">About</a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a href="" class="menu-mobile__link">Feature</a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a href="" class="menu-mobile__link">Service</a>
+                                </li>
+                                <li class="menu-mobile__item">
+                                    <a href="" class="menu-mobile__link">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                     <div class="header__content">
                         <span class="header__content-slogan">Spa & Beauty Center</span>
